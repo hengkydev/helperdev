@@ -1,0 +1,24 @@
+{
+    "name": "hengkydev/helperdev",
+    "type": "library",
+    "description": "Some Helper Function for PHP",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/hengkydev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hengky Irianto",
+            "email": "hengky.dev@gmail.com",
+            "homepage": "http://aksamedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "helperdev": "src"
+        }
+    }
+}
